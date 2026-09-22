@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 // See .env.example — VITE_API_URL lets you point at a non-default backend.
 export default defineConfig({
@@ -7,8 +7,8 @@ export default defineConfig({
   server: {
     port: 5173,
     proxy: {
-      '/api': {
-        target: 'http://localhost:5000',
+      "/api": {
+        target: "https://erp-backend-ten-chi.vercel.app/",
         changeOrigin: true,
       },
     },
