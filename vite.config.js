@@ -8,7 +8,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       "/api": {
-        target: "https://erp-backend-ten-chi.vercel.app/",
+        target: "https://erp-backend-ten-chi.vercel.app",
         changeOrigin: true,
       },
     },
