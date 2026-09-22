@@ -1,0 +1,81 @@
+/*
+  Ledgerline design tokens.
+  A ledger-book palette (paper + ink-blue) rather than a generic SaaS
+  purple/indigo — deliberately quiet so dense tables stay legible.
+*/
+
+:root,
+[data-theme='light'] {
+  --bg: #f3f4f1;
+  --surface: #ffffff;
+  --surface-alt: #eaede7;
+  --ink: #1e2a33;
+  --muted-ink: #5b6b70;
+  --faint-ink: #8b978c;
+
+  --accent: #26415c;
+  --accent-strong: #17293b;
+  --accent-soft: #dce6ed;
+  --accent-ink: #ffffff;
+
+  --line: #d8ded5;
+  --line-strong: #c2cabb;
+
+  --success: #2f8f5b;
+  --success-soft: #e1f3e8;
+  --warning: #b8792b;
+  --warning-soft: #fbeedc;
+  --danger: #b84440;
+  --danger-soft: #fbe7e6;
+  --info: #3a6ea8;
+  --info-soft: #e2ebf4;
+
+  --shadow-sm: 0 1px 2px rgba(30, 42, 51, 0.06);
+  --shadow-md: 0 8px 24px rgba(23, 35, 43, 0.14);
+  --overlay: rgba(16, 22, 26, 0.42);
+}
+
+[data-theme='dark'] {
+  --bg: #10161a;
+  --surface: #171f24;
+  --surface-alt: #1d262b;
+  --ink: #e7ece9;
+  --muted-ink: #93a29e;
+  --faint-ink: #64726d;
+
+  --accent: #7fa8c9;
+  --accent-strong: #9cc0de;
+  --accent-soft: #223142;
+  --accent-ink: #0d1720;
+
+  --line: #29343a;
+  --line-strong: #384349;
+
+  --success: #4fb57e;
+  --success-soft: #16281f;
+  --warning: #d9a34f;
+  --warning-soft: #2c2417;
+  --danger: #e1706c;
+  --danger-soft: #2c1917;
+  --info: #7ba3d0;
+  --info-soft: #16232f;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 12px 32px rgba(0, 0, 0, 0.45);
+  --overlay: rgba(4, 7, 9, 0.6);
+}
+
+:root {
+  --font-display: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --radius-sm: 4px;
+  --radius-md: 7px;
+  --radius-lg: 12px;
+
+  --sidebar-w: 232px;
+  --topbar-h: 60px;
+  --tabbar-h: 60px;
+
+  color-scheme: light dark;
+}
